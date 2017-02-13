@@ -1,0 +1,12 @@
+{
+  "name": "My extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://portalrh.mti.mt.gov.br:8090/*"],
+      "css": ["ponto.css"],
+      "js": ["ponto.js"]
+    }
+  ]
+}
